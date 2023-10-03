@@ -6,14 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="https://th.bing.com/th/id/OIP.yj4k7FiNMGT0ZsuO-ANxngHaHt?pid=ImgDet&rs=1">
   <title>Personal Webpage</title>
-  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
   <div id="Nav">
     <div href="#" class="NavItem" id="home">Home</div>
     <div href="#" class="NavItem" id="aboutme">About Me</div>
     <div href="#" class="NavItem" id="blogpost">Blog post</div>
+    <div href="#" class="NavItem" id="projects">Projects</div>
     <div href="#" class="NavItem" id="contactme">Contact Me</div>
+    <label class="toggle-switch">
+      <input type="checkbox" id="mode-toggle">
+      <span class="sliderT"></span>
+    </label>
   </div>
   <div id="helpBtn">
     <div>?</div>
@@ -48,7 +53,7 @@ All of my work are listed on my <a href="www.linkedin.com/in/jazperr">LinkedIn</
     <div id="second">
       <!-- show my picture -->
       <div id="picture" style="z-index: 0;">
-        <img src="/img/pf.jpg" alt="pic" style="position: relative; width:30vw;">
+        <img src="../img/pf.jpg" alt="pic" style="position: relative; width:30vw;">
         <p style="font-weight: bold; font-size: xx-large; z-index: 0;color:black;">THIS IS ME &#128516;</p>
       </div>
     </div>
@@ -66,19 +71,14 @@ Coding in my opinion is everywhere and utilized everyday, as generation continue
       </div>
       <div id="fourth">
         <div id="fourthContainer">
+          <div style="position: absolute;left:5%;top:5%;font-weight: bold;font-size: 3vmax;">
+            Projects
+        </div>
           <div class="Projects" id="ProjectOne">
-              <div style="position: absolute;left:5%;top:25%;font-weight: bold;font-size: 3vmax;">
-                  Projects
-                  <label class="toggle-switch">
-                      <input type="checkbox" id="mode-toggle">
-                      <span class="sliderT"></span>
-                    </label>
-              </div>
-  
               <div class="slider1 slider">
-                  <img src="/img/Project1(1).PNG" alt="Project 1">
-                  <img src="/img/Project1(2).PNG" alt="Project 1">
-                  <img src="/img/Project1(3).PNG" alt="Project 1">
+                  <img src="../img/Project1(1).png" alt="Project 1">
+                  <img src="../img/Project1(2).png" alt="Project 1">
+                  <img src="../img/Project1(3).png" alt="Project 1">
                   <button>&lt;</button>
                   <button>&gt;</button>
               </div>
@@ -87,9 +87,9 @@ Coding in my opinion is everywhere and utilized everyday, as generation continue
           </div>
           <div class="Projects" id="ProjectTwo">
               <div class="slider2 slider">
-                  <img src="/img/Project2(1).PNG" alt="Project 2">
-                  <img src="/img/Project2(2).PNG" alt="Project 2">
-                  <img src="/img/Project2(3).PNG" alt="Project 2">
+                  <img src="../img/Project2(1).png" alt="Project 2">
+                  <img src="../img/Project2(2).png" alt="Project 2">
+                  <img src="../img/Project2(3).png" alt="Project 2">
                   <button>&lt;</button>
                   <button>&gt;</button>
               </div>
@@ -155,6 +155,7 @@ Coding in my opinion is everywhere and utilized everyday, as generation continue
       </div>
     </div>
   </div>
-  <script src="/js/index.js"></script>
+  <div id="darkmodeV"></div>
+  <script src="../js/index.js"></script>
 </body>
 </html>
