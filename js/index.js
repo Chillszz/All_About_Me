@@ -33,3 +33,4 @@ function smoothScrollToDiv(divId) {
         console.error(`Element with ID '${divId}' not found.`);
     }
 }
+
